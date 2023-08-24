@@ -2,14 +2,13 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import ContactIcons from '../Contact/ContactIcons';
-
-const { PUBLIC_URL } = import.meta.env; // set automatically from package.json:homepage
+import me from '../../assets/images/me.png'
 
 const Sidebar: React.FC = () => (
   <section id="sidebar">
     <section id="intro">
       <Link to="/" className="logo">
-        <img src={`${PUBLIC_URL}/images/me.jpeg`} alt="" />
+        <img src={me} alt="me" />
       </Link>
       <header>
         <h2>Nate - (0xNeit)</h2>
