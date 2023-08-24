@@ -19,8 +19,10 @@
     "react-burger-menu": "^3.0.9",
     "react-dom": "^18.2.0",
     "react-helmet-async": "^1.3.0",
+    "react-markdown": "^8.0.7",
     "react-router-dom": "^6.15.0",
-    "sass": "^1.66.1"
+    "sass": "^1.66.1",
+    "vite-raw-plugin": "^1.0.2"
   },
   "devDependencies": {
     "@types/node": "^20.5.4",
