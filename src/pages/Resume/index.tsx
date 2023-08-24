@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 
 import Main from '../../components/Layout';
 
-import Education from '../components/Resume/Education';
-import Experience from '../components/Resume/Experience';
-import Skills from '../components/Resume/Skills';
-import Courses from '../components/Resume/Courses';
-import References from '../components/Resume/References';
+import Education from '../../components/Education';
+import Experience from '../../components/Experience';
+import Skills from '../../components/Skills';
+import Courses from '../../components/Courses';
+import References from '../../components/References';
 
 import courses from '../../constants/courses';
 import degrees from '../../constants/degrees';

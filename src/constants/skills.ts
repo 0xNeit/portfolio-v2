@@ -18,16 +18,31 @@ const skills: Skill[] = [
   },
   {
     title: 'Rust',
-    competency: 3,
+    competency: 4,
     category: ['Blockchain Development', 'Languages', 'Solana'],
   },
   {
+    title: 'Sway',
+    competency: 3,
+    category: ['Blockchain Development', 'Languages', 'Fuel'],
+  },
+  {
+    title: 'T-Solidity',
+    competency: 3,
+    category: ['Blockchain Development', 'Languages', 'Venom'],
+  },
+  {
     title: 'Node.JS',
-    competency: 4,
+    competency: 5,
     category: ['Web Development', 'Javascript'],
   },
   {
     title: 'React',
+    competency: 4,
+    category: ['Web Development', 'Javascript'],
+  },
+  {
+    title: 'Vite',
     competency: 4,
     category: ['Web Development', 'Javascript'],
   },
@@ -43,32 +58,32 @@ const skills: Skill[] = [
   },
   {
     title: 'Hardhat',
-    competency: 3,
+    competency: 4,
     category: ['Blockchain Development', 'Tools', 'Ethereum'],
   },
   {
     title: 'Anchor',
-    competency: 2,
+    competency: 3,
     category: ['Blockchain Development', 'Tools', 'Solana'],
   },
   {
     title: 'Heroku',
-    competency: 3,
+    competency: 4,
     category: ['Web Development', 'Tools'],
   },
   {
     title: 'Move',
-    competency: 3,
+    competency: 5,
     category: ['Aptos', 'Blockchain Development', 'Sui'],
   },
   {
     title: 'MongoDB',
-    competency: 3,
+    competency: 4,
     category: ['Web Development', 'Databases'],
   },
   {
-    title: 'Express.JS',
-    competency: 2,
+    title: 'Express',
+    competency: 3,
     category: ['Web Development', 'Javascript'],
   },
   {
@@ -78,7 +93,7 @@ const skills: Skill[] = [
   },
   {
     title: 'Typescript',
-    competency: 3,
+    competency: 5,
     category: ['Web Development', 'Languages', 'Javascript'],
   },
   {

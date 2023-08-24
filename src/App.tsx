@@ -7,6 +7,8 @@ const { PUBLIC_URL } = import.meta.env;
 
 const Home = lazy(() => import('./pages/Home'));
 const About = lazy(() => import('./pages/About'));
+const Resume = lazy(() => import('./pages/Resume'));
+const Contact = lazy(() => import('./pages/Contact'));
 
 const App: React.FC = () => (
   <BrowserRouter basename={PUBLIC_URL}>
@@ -14,6 +16,8 @@ const App: React.FC = () => (
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/resume" element={<Resume />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </Suspense>
   </BrowserRouter>
