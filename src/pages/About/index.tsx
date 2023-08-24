@@ -29,6 +29,7 @@ const About: React.FC = () => (
       </header>
       <ReactMarkdown
         children={markdown}
+        // @ts-ignore
         renderers={{
           Link: LinkRenderer,
         }}
