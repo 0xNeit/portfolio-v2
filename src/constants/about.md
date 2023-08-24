@@ -1,7 +1,7 @@
 
 # Intro
 
-I am a full stack Web3 developer. I build Decentralized applications using modern programming languages/libraries/frameworks/tools like HTML, CSS, Javascript/TypeScript, ReactJS, NextJS, Vite,Solidity, Rust, Move and Sway. I am a self-taught developer and I like to learn new skills everyday. I have 3 years experience with building dApps(Web3) and about 5 years general coding experience.
+I am a full stack Web3 developer. I build Decentralized applications using modern programming languages/libraries/frameworks/tools like HTML, CSS, Javascript/TypeScript, ReactJS, NextJS, Vite, Solidity, Rust, Move and Sway. I have built several DApps on chains such as Ethereum and other EVM Chains, Solana, Aptos, Sui, Venom and Fuel network. I am a self-taught developer and I like to learn new skills everyday. I have 3 years experience with building dApps(Web3) and about 6 years general coding experience.
 
 # Currently
 

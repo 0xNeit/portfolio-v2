@@ -5,7 +5,13 @@ import { faEnvelope } from '@fortawesome/free-regular-svg-icons/faEnvelope';
 // See https://fontawesome.com/icons?d=gallery&s=brands,regular&m=free
 // to add other icons.
 
-const data = [
+interface Data {
+  link: string,
+  label: string,
+  icon: any
+}
+
+const data: Data[] = [
   {
     link: 'https://github.com/0xNeit',
     label: 'Github',

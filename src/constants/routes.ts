@@ -1,4 +1,10 @@
-const routes = [
+interface Routes {
+    index?: boolean,
+    label: string,
+    path: string
+}
+
+const routes: Routes[] = [
     {
         index: true,
         label: '0xNeit',
