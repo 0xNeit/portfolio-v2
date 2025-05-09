@@ -7,7 +7,7 @@ interface Degrees {
 
 const degrees: Degrees[] = [
   {
-    school: 'University at Benin',
+    school: 'University of Benin',
     degree: 'B.Eng Mechanical Engineering',
     link: 'https://uniben.edu',
     year: 2021,
