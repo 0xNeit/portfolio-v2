@@ -12,13 +12,13 @@ const Sidebar: React.FC = () => (
       </Link>
       <header>
         <h2>Nate - (0xNeit)</h2>
-        <p><a href="mailto:silentpitcher@gmail.com">silentpitcher@gmail.com</a></p>
+        <p><a href="mailto:nate@0xneit.dev">nate@0xneit.dev</a></p>
       </header>
     </section>
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Nate. I like Building things.
+      <p>Hi, I&apos;m Nate. I&apos;m a software engineer with a passion for building extremely cool stuff.
       </p>
       <ul className="actions">
         <li>

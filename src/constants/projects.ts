@@ -6,6 +6,8 @@ import agora from '../assets/projects/agora.png'
 import cheemswap from '../assets/projects/cheemswap.png'
 import andex from '../assets/projects/andex.jpg'
 import pixelly from '../assets/projects/pixelly.png'
+import razor from '../assets/projects/razor.png'
+import razorwallet from '../assets/projects/razorwallet.png'
 
 
 const data = [
@@ -71,6 +73,24 @@ const data = [
     date: '2023-08-10',
     desc:
       'NFT MarketPlace on Tenet mainnet',
+  },
+  {
+    title: 'Razor DEX',
+    subtitle: 'Live on Movement Mainnet',
+    link: 'https://app.razordex.xyz',
+    image: razor,
+    date: '2024-01-01',
+    desc:
+      'Pioneer Dex on Movement Network',
+  },
+  {
+    title: 'Razor Wallet',
+    subtitle: 'Live on Movement Mainnet',
+    link: 'https://razorwallet.xyz',
+    image: razorwallet,
+    date: '2024-01-01',
+    desc:
+      'Pioneer Wallet on Movement Network',
   },
 
 ];

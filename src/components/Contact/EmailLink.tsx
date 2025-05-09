@@ -52,9 +52,9 @@ const EmailLink: React.FC<EmailLinkProps> = ({ loopMessage = false }) => {
   const hold = 50; // ticks to wait after message is complete before rendering next message
   const delay = 50; // tick length in mS
 
-  const [idx, updateIter] = useState(0); // points to current message
-  const [message, updateMessage] = useState(messages[idx]);
-  const [char, updateChar] = useState(0); // points to current char
+  const [idx, setIdx] = useState(0); // points to current message
+  const [message, setMessage] = useState(messages[idx]);
+  const [char, setChar] = useState(0); // points to current char
   const [isActive, setIsActive] = useState(true); // disable when all messages are printed
 
   useInterval(() => {
@@ -66,15 +66,15 @@ const EmailLink: React.FC<EmailLinkProps> = ({ loopMessage = false }) => {
     }
     if (newIdx === messages.length) {
       if (loopMessage) {
-        updateIter(0);
-        updateChar(0);
+        setIdx(0);
+        setChar(0);
       } else {
         setIsActive(false);
       }
     } else {
-      updateMessage(messages[newIdx].slice(0, newChar));
-      updateIter(newIdx);
-      updateChar(newChar + 1);
+      setMessage(messages[newIdx].slice(0, newChar));
+      setIdx(newIdx);
+      setChar(newChar + 1);
     }
   }, isActive ? delay : null);
 
@@ -85,9 +85,9 @@ const EmailLink: React.FC<EmailLinkProps> = ({ loopMessage = false }) => {
       onMouseEnter={() => setIsActive(false)}
       onMouseLeave={() => (idx < messages.length) && setIsActive(true)}
     >
-      <a href={validateText(message) ? `mailto:${message}@gmail.com` : ''}>
+      <a href={validateText(message) ? `mailto:${message}@0xneit.dev` : ''}>
         <span>{message}</span>
-        <span>@gmail.com</span>
+        <span>@0xneit.dev</span>
       </a>
     </div>
   );

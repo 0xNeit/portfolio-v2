@@ -9,42 +9,42 @@ const skills: Skill[] = [
   {
     title: 'Javascript',
     competency: 5,
-    category: ['Web Development', 'Languages', 'Javascript'],
+    category: ['Frontend', 'Languages', 'Javascript'],
   },
   {
     title: 'Solidity',
     competency: 4,
-    category: ['Blockchain Development', 'Languages', 'Ethereum'],
+    category: ['Smart Contracts', 'Languages', 'Ethereum'],
   },
   {
     title: 'Rust',
     competency: 4,
-    category: ['Blockchain Development', 'Languages', 'Solana'],
+    category: ['Smart Contracts', 'Languages', 'Solana'],
   },
   {
     title: 'Sway',
     competency: 3,
-    category: ['Blockchain Development', 'Languages', 'Fuel'],
+    category: ['Smart Contracts', 'Languages', 'Fuel'],
   },
   {
     title: 'T-Solidity',
     competency: 3,
-    category: ['Blockchain Development', 'Languages', 'Venom'],
+    category: ['Smart Contracts', 'Languages', 'Venom'],
   },
   {
     title: 'Node.JS',
     competency: 5,
-    category: ['Web Development', 'Javascript'],
+    category: ['Backend', 'Javascript'],
   },
   {
     title: 'React',
     competency: 4,
-    category: ['Web Development', 'Javascript'],
+    category: ['Frontend', 'Javascript'],
   },
   {
     title: 'Vite',
     competency: 4,
-    category: ['Web Development', 'Javascript'],
+    category: ['Frontend', 'Javascript'],
   },
   {
     title: 'Amazon Web Services',
@@ -54,17 +54,17 @@ const skills: Skill[] = [
   {
     title: 'Truffle',
     competency: 3,
-    category: ['Blockchain Development', 'Tools', 'Ethereum'],
+    category: ['Smart Contracts', 'Tools', 'Ethereum'],
   },
   {
     title: 'Hardhat',
     competency: 4,
-    category: ['Blockchain Development', 'Tools', 'Ethereum'],
+    category: ['Smart Contracts', 'Tools', 'Ethereum'],
   },
   {
     title: 'Anchor',
     competency: 3,
-    category: ['Blockchain Development', 'Tools', 'Solana'],
+    category: ['Smart Contracts', 'Tools', 'Solana'],
   },
   {
     title: 'Heroku',
@@ -74,16 +74,16 @@ const skills: Skill[] = [
   {
     title: 'Move',
     competency: 5,
-    category: ['Aptos', 'Blockchain Development', 'Sui'],
+    category: ['Smart Contracts', 'Languages', 'Aptos', 'Sui'],
   },
   {
     title: 'MongoDB',
-    competency: 4,
+    competency: 5,
     category: ['Web Development', 'Databases'],
   },
   {
     title: 'Express',
-    competency: 3,
+    competency: 5,
     category: ['Web Development', 'Javascript'],
   },
   {
@@ -94,12 +94,12 @@ const skills: Skill[] = [
   {
     title: 'Typescript',
     competency: 5,
-    category: ['Web Development', 'Languages', 'Javascript'],
+    category: ['Frontend', 'Languages', 'Javascript', 'Backend'],
   },
   {
     title: 'HTML + SASS/SCSS/CSS',
     competency: 5,
-    category: ['Web Development', 'Languages'],
+    category: ['Frontend', 'Languages'],
   },
   {
     title: 'MATLAB',
@@ -108,7 +108,7 @@ const skills: Skill[] = [
   },
   {
     title: 'GraphQL',
-    competency: 2,
+    competency: 5,
     category: ['Web Development', 'Databases'],
   },
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));

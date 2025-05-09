@@ -13,13 +13,13 @@ const courses: Courses[] = [
     platform: 'Udemy',
   },
   {
-    title: 'Solana Devloper Course',
+    title: 'Solana Developer Course',
     instructor: '(Learn with Arjun)',
     link: 'https://www.udemy.com/course/solana-developer/',
     platform: 'Udemy',
   },
   {
-    title: 'Full Stack Javasscript',
+    title: 'Full Stack Javascript',
     instructor: '(K. Sathyaprakash Reddy)',
     link: 'https://www.udemy.com/course/fullstack-javascript-learn-javascriptreact-nodemongo-db/',
     platform: 'Udemy',

@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link, LinkProps } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
-// import about from '../../constants/about.md';
 
 import Main from '../../components/Layout';
 
