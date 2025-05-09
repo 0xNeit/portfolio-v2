@@ -8,7 +8,7 @@ import ContactIcons from '../../components/Contact/ContactIcons';
 const Contact: React.FC = () => (
   <Main
     title="Contact"
-    description="Contact 0xNeit via email @ silentpitcher@gmail.com"
+    description="Contact 0xNeit via email @ nate@0xneit.dev"
   >
     <article className="post" id="contact">
       <header>

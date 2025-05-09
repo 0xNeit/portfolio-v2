@@ -28,7 +28,7 @@ const data: Data[] = [
     icon: faTwitter,
   },
   {
-    link: 'mailto:silentpitcher@gmail.com',
+    link: 'mailto:nate@0xneit.dev',
     label: 'Email',
     icon: faEnvelope,
   },
