@@ -4,7 +4,7 @@ interface JobData {
   link: string;
   company: string;
   position: string;
-  daterange: string;
+  dateRange: string;
   points: string[];
 }
 
@@ -16,7 +16,7 @@ const Job: React.FC<JobProps> = ({ data }) => (
   <article className="jobs-container">
     <header>
       <h4><a href={data.link}>{data.company}</a> - {data.position}</h4>
-      <p className="daterange"> {data.daterange}</p>
+      <p className="daterange"> {data.dateRange}</p>
     </header>
     <ul className="points">
       {data.points.map((point) => (

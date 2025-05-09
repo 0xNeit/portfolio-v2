@@ -6,7 +6,7 @@ interface JobData {
   company: string;
   position: string;
   link: string;
-  daterange: string;
+  dateRange: string;
   points: string[];
 }
 
