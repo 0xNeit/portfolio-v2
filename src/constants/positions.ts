@@ -53,6 +53,8 @@ const positions: Positions[] = [
     dateRange: 'April 2023 - November 2023',
     points: [
       'Contributing to early ecosystems and participating in Hackathons',
+      'Designed and implemented Smart Contracts for Gather Labs products',
+      'Led the development of the Andex insurance protocol',
     ]
   },
   {
