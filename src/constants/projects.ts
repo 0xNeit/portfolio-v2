@@ -79,7 +79,7 @@ const data = [
     subtitle: 'Live on Movement Mainnet',
     link: 'https://app.razordex.xyz',
     image: razor,
-    date: '2024-01-01',
+    date: '2023-12-11',
     desc:
       'Pioneer Dex on Movement Network',
   },
@@ -88,7 +88,7 @@ const data = [
     subtitle: 'Live on Movement Mainnet',
     link: 'https://razorwallet.xyz',
     image: razorwallet,
-    date: '2024-01-01',
+    date: '2023-12-11',
     desc:
       'Pioneer Wallet on Movement Network',
   },
